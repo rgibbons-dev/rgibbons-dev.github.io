@@ -38,7 +38,7 @@ const projectList = [
     },
     {
         name: 'five',
-        techologies: 'Swift, SwiftUI',
+        technologies: 'Swift, SwiftUI',
         summary: 'A prototype of an app that serves to enhance Apple\'s built-in App Limits feature; instead of prompting the user with a screen that they can habitually bypass, you should "take five"! `five` runs on opening of your designated app that you\'d like to frequent less often, presenting a timer that the user must watch, with a button appearing once the countdown has completed. This button takes them to the app that they were initially intending to go to.',
         repository: 'https://github.com/rgibbons-dev/five',
         deployment: '',
