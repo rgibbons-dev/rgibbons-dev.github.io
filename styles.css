@@ -16,15 +16,15 @@
   
   /********** General **********/
   :root {
-    --blue: #024ae3;
-    --white: #ffffff;
+    --black: #1b3019;
+    --green: #d8fad7;
   }
   
   * {
     margin: 0;
     padding: 0;
     font-family: 'Canva Sans', Arial, Helvetica, sans-serif;
-    color: var(--blue);
+    color: var(--black);
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
@@ -82,7 +82,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px dashed var(--blue);
+    border: 2px dashed var(--black);
   }
   
   #links {
@@ -125,33 +125,8 @@
     grid-auto-flow: dense;
   }
   
-  #awards {
-    background-color: var(--blue);
-    grid-column: 1 / 3;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  }
-  
-  #awards * {
-    color: var(--white);
-    text-decoration: none;
-  }
-  
-  .award {
-    padding: 1.25em;
-  }
-  
-  #duck {
-    margin: 3em;
-    width: 3em;
-  }
-  
   @media (max-width: 775px) {
     #top-section {
-      flex-direction: column;
-    }
-  
-    #awards {
       flex-direction: column;
     }
   }
